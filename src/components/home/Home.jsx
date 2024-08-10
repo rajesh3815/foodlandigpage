@@ -7,16 +7,25 @@ const Home = () => {
   return (
     <div className={Style.mainContainer}>
       <div className={Style.containerLeft}>
-        <img src={logotruck} alt="logo" loading="eager" />
-        <div className="leftContainerFooter">
-          <h1>
-            Discover the <span>Best</span> Food and Drinks
-          </h1>
-          <p>
-            Naturally made Healthcare Products for the better care & support of
-            your body.
-          </p>
-          <button>Explore Now!</button>
+        <div className={Style.leftInner}>
+          <img src={logotruck} alt="logo" loading="eager" />
+          <div className={Style.leftContainerFooter}>
+            <h1>
+              Discover the <span style={{ color: "red" }}>Best</span> Food and
+              Drinks
+            </h1>
+            <p
+              style={{
+                color: "rgba(68, 73, 87, 1)",
+                letterSpacing: "1px",
+                lineHeight: "28px",
+              }}
+            >
+              Naturally made Healthcare Products for the better care & support
+              of your body.
+            </p>
+            <button>Explore Now!</button>
+          </div>
         </div>
       </div>
       <div className={Style.containerRight}>

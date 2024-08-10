@@ -1,0 +1,76 @@
+.container {
+    background: rgba(248, 248, 248, 1);
+    padding: 2rem;
+    padding: 6rem 6rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.container>div {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+
+}
+
+.container h3 {
+    color: rgba(14, 35, 104, 1);
+    font-size: 18px;
+}
+
+.imgDiv {
+    justify-content: center;
+}
+
+.contactDiv p {
+    color: rgba(100, 104, 116, 1);
+    letter-spacing: 1px;
+}
+
+.contactDiv {
+    gap: 0.8rem;
+    line-height: 26px;
+    font-size: 14px;
+}
+
+.moreDiv {
+    gap: 1rem;
+   padding: 0 6rem;
+   box-sizing: border-box;
+
+}
+
+.moreDiv ul {
+    list-style-type: none;
+
+}
+
+.moreDiv ul li {
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    color: rgba(100, 104, 116, 1);
+}
+
+.linkDiv {
+    padding: 0rem 4rem;
+    box-sizing: border-box;
+}
+
+.linkDiv p {
+    color: rgba(100, 104, 116, 1);
+    position: absolute;
+    bottom: 119px;
+    right: 11.5rem;
+
+}
+
+.linkDiv div {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+}

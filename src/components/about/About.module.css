@@ -1,0 +1,39 @@
+.mainContainer {
+    margin-top: 1rem;
+    display: flex;
+    background: linear-gradient(90.07deg, rgba(30, 42, 93, 0.04) 30.91%,
+            rgba(48, 62, 130, 0.04) 64.79%, rgba(60, 80, 157, 0.04) 91.94%);
+    align-items: center;
+    gap: 16rem;
+    padding: 0px 11rem;
+    box-sizing: border-box;
+}
+
+.imgDiv {}
+.aboutDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1.5rem;
+}
+.aboutDiv h1 {
+    color: rgba(14, 35, 104, 1);
+    font-size: 50px;
+}
+
+.aboutDiv p {
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    color: rgba(68, 73, 87, 1);
+}
+.aboutDiv button{
+    background: rgba(226, 55, 68, 1);
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
