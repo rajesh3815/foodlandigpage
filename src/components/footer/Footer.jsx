@@ -19,7 +19,7 @@ const Footer = () => {
         <p>example2020@gmail.com</p>
         <p>(904) 443-0343</p>
       </div>
-      <div  className={Style.moreDiv}>
+      <div className={Style.moreDiv}>
         <h3>More</h3>
         <ul>
           <li>About Us</li>
@@ -28,8 +28,8 @@ const Footer = () => {
           <li>Contact Us</li>
         </ul>
       </div>
-      <div  className={Style.linkDiv}>
-        <h3>Social Links</h3>
+      <div className={Style.linkDiv}>
+        <h3 >Social Links</h3>
         <div>
           <a href="*">
             <img src={insta} alt="" />
@@ -40,7 +40,6 @@ const Footer = () => {
           <a href="*">
             <img src={fb} alt="" />
           </a>
-          
         </div>
         <p>© 2022 Food Truck Example</p>
       </div>

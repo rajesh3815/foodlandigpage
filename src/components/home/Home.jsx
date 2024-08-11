@@ -15,11 +15,7 @@ const Home = () => {
               Drinks
             </h1>
             <p
-              style={{
-                color: "rgba(68, 73, 87, 1)",
-                letterSpacing: "1px",
-                lineHeight: "28px",
-              }}
+             
             >
               Naturally made Healthcare Products for the better care & support
               of your body.

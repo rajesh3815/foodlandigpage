@@ -9,13 +9,17 @@
     box-sizing: border-box;
 }
 
-.imgDiv {}
-.aboutDiv{
+.imgDiv {
+    display: block;
+}
+
+.aboutDiv {
     display: flex;
     flex-direction: column;
     align-items: baseline;
     gap: 1.5rem;
 }
+
 .aboutDiv h1 {
     color: rgba(14, 35, 104, 1);
     font-size: 50px;
@@ -26,7 +30,8 @@
     line-height: 1.8rem;
     color: rgba(68, 73, 87, 1);
 }
-.aboutDiv button{
+
+.aboutDiv button {
     background: rgba(226, 55, 68, 1);
     outline: none;
     border: none;
@@ -36,4 +41,37 @@
     padding: 12px 20px;
     cursor: pointer;
     border-radius: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    .imgDiv {
+        display: none;
+    }
+
+    .mainContainer {
+        padding: 0px;
+
+    }
+
+    .aboutDiv {
+        padding: 7rem 3rem;
+        align-items: center;
+    }
+
+    .aboutDiv h1 {
+        font-size: 28px;
+    }
+
+    .aboutDiv p {
+        text-align: center;
+        width: 103%;
+        line-height: 1.4rem;
+        font-size: 14px;
+    }
+
+    .aboutDiv button {
+        font-size: 13px;
+        padding: 9px 19px;
+    }
+
 }

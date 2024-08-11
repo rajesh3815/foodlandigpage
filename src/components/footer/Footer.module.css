@@ -8,13 +8,11 @@
     position: relative;
 }
 
-.container>div {
-    width: 17rem;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
 
 
+.imgDiv img {
+    width: 11rem;
+    height: 8rem;
 }
 
 .container h3 {
@@ -24,6 +22,10 @@
 
 .imgDiv {
     justify-content: center;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .contactDiv p {
@@ -35,12 +37,20 @@
     gap: 0.8rem;
     line-height: 26px;
     font-size: 14px;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .moreDiv {
     gap: 1rem;
-   padding: 0 6rem;
-   box-sizing: border-box;
+    padding: 0 6rem;
+    box-sizing: border-box;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 
 }
 
@@ -58,6 +68,10 @@
 .linkDiv {
     padding: 0rem 4rem;
     box-sizing: border-box;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
 
 .linkDiv p {
@@ -73,4 +87,64 @@
     display: flex;
     align-items: center;
     gap: 2.2rem;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        width: 100vw;
+        padding: 0px;
+    }
+
+    .imgDiv {
+        align-items: center;
+        width: inherit;
+    }
+
+    .container>div {
+        width: -webkit-fill-available;
+    }
+
+    .imgDiv img {
+        width: 7rem;
+        height: 5rem;
+        margin: 4rem 0;
+    }
+
+    .contactDiv {
+        padding-left: 4rem;
+        padding-right: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .contactDiv p {
+        font-size: 11px;
+    }
+
+    .moreDiv {
+        padding: 0 4rem;
+    }
+
+    .moreDiv ul li {
+        font-size: 12px;
+    }
+
+    .linkDiv {
+        align-items: center;
+        margin: 2rem 0;
+    }
+
+    .linkDiv h3 {
+        display: none;
+    }
+
+    .linkDiv div {}
+
+    .linkDiv p {
+        margin-bottom: 18px;
+        font-size: 12px;
+        bottom: 53px;
+        right: auto;
+    }
+
 }
